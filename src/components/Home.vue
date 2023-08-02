@@ -59,7 +59,6 @@ export default {
 .bg-slate-200 {
     transition: all 0.3s ease-in-out;
 }
-
 .bg-slate-200:hover {
     border: 2px solid #4a5568;
     color: #fff;

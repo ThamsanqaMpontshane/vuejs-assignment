@@ -6,7 +6,12 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#FFA500',
+        secondary: '#4B0082',
+      },
+    },
   },
   plugins: [
     tailwindcssAnimated,

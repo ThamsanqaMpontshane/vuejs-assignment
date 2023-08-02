@@ -10,13 +10,13 @@
             <h3><strong>Owner:</strong> {{ selectedResult.owner.login }}</h3>
             <h3><strong>RepoName:</strong> {{ selectedResult.name }}</h3>
             <!-- !See More Or See Less Button -->
-            <button class="bg-slate-200 text-gray-400 font-bold py-2 px-4 rounded mt-4 mb-2"
+            <button class="bg-slate-400 text-gray-600 font-bold py-2 px-4 rounded mt-4 mb-2"
                 @click="showmoreDetails = !showmoreDetails">
                 {{ showmoreDetails ? 'See Less' : 'See More' }}
             </button>
             <!-- !Results Of Clicking The See More Or See Less Button -->
             <div v-if="showmoreDetails" class="mt-4 flex flex-col justify-center items-center">
-                <hr class="w-11/12">
+                <hr class="w-11/12 border border-gray-400" style="background-color:black">
                 <ul class="list-disc pl-8 py-2">
                     <h3><strong>Language:</strong> {{ selectedResult.language }}</h3>
                     <h3><strong>License:</strong> {{ selectedResult.license?.name || 'None' }}</h3>
