@@ -56,3 +56,5 @@ API Documentation
 GitHub Search API Documentation
 
 [[https://developer.github.com/v3/search/](https://developer.github.com/v3/search/)]
+
+![Alt](https://repobeats.axiom.co/api/embed/01fb7b0d82ebe5ee46093f2e2c381b20d6b5098b.svg "Repobeats analytics image")
